@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_best_practices_lab/screens/orientation_builder_screen.dart';
+import 'package:flutter_best_practices_lab/widgets/stack_layout.dart';
 
 void main() {
   runApp(const MainApp());
@@ -14,7 +14,8 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       // home: Home(),
       // home: LayoutBuilderScreen(),
-      home: OrientationBuilderScreen(),
+      // home: OrientationBuilderScreen(),
+      home: StackLayout(),
     );
   }
 }
