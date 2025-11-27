@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'package:flutter_best_practices_lab/widgets/stack_layout.dart';
-import 'package:flutter_best_practices_lab/widgets/stack_layout_example_2.dart';
+import 'package:flutter_best_practices_lab/widgets/wrap_example.dart';
 
 void main() {
   runApp(const MainApp());
@@ -17,7 +15,12 @@ class MainApp extends StatelessWidget {
       // home: LayoutBuilderScreen(),
       // home: OrientationBuilderScreen(),
       // home: StackLayout(),
-      home: StackLayoutExample2(),
+      // home: StackLayoutExample2(),
+      // home: ColumnRowExample(),
+      // home: FlexibleExpandedExample1(),
+      // home: FlexibleExpandedExample2(),
+      // home: ExpandedExample(),
+      home: WrapExample(),
     );
   }
 }
