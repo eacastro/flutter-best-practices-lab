@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_best_practices_lab/widgets/example_sliver_1.dart';
+import 'package:flutter_best_practices_lab/widgets/example_sliver_2.dart';
 
 void main() {
   runApp(const MainApp());
@@ -22,7 +23,8 @@ class MainApp extends StatelessWidget {
       // home: ExpandedExample(),
       // home: WrapExample(),
       // home: ExampleUnboundHeight(),
-      home: ExampleSliver1(),
+      // home: ExampleSliver1(),
+      home: MyScrollView(),
     );
   }
 }
